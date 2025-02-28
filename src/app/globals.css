@@ -4,7 +4,7 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-baij: var(--font-bai-jamjuree);
-  /* --font-bai-jamjuree: "Bai Jamjuree", sans-serif; */
+  --font-bai-jamjuree: "Bai Jamjuree", sans-serif;
 
   
    /* Colors */
@@ -12,10 +12,14 @@
    --color-light-blue: hsl(233, 100%, 69%);
    --color-dark-grayish-blue: hsl(210, 10%, 33%);
    --color-grayish-blue: hsl(201, 11%, 66%);
+   --color-light-graysh: hsl(205.71deg 2.96% 69.32%);
 
    /* Breakpoints (Optional if needed) */
   --breakpoint-xxsm: 320px;
   --breakpoint-xsm: 375px;
+
+  /* background image */
+  --background-image-hero : url('../../public/source/images/bg-header-mobile.png');
 }
 
 :root {
@@ -30,6 +34,13 @@
   }
 }
 
-body {
-   font-family: var(--font-geist-mono);
+.icon {
+  @apply w-6 h-auto text-zinc-700 cursor-pointer
+}
+
+.shadG {
+  box-shadow: 0px 2.5px 0px 0px #1c8978;
+}
+.shadB {
+  box-shadow: 0 2.5px #4d58ab;
 }
