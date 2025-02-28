@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-baij: var(--font-bai-jamjuree);
+  /* --font-bai-jamjuree: "Bai Jamjuree", sans-serif; */
+
+  
+   /* Colors */
+   --color-strong-cyan: hsl(171, 66%, 44%);
+   --color-light-blue: hsl(233, 100%, 69%);
+   --color-dark-grayish-blue: hsl(210, 10%, 33%);
+   --color-grayish-blue: hsl(201, 11%, 66%);
+
+   /* Breakpoints (Optional if needed) */
+  --breakpoint-xxsm: 320px;
+  --breakpoint-xsm: 375px;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+   font-family: var(--font-geist-mono);
+}
