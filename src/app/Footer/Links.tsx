@@ -1,9 +1,6 @@
 import React from "react";
-import { links } from "../Main/data";
 const Links = () => {
-  // this array for large screen links order
-  // const lgOrder = [1, 4, 2, 3, 5];
-  const lgOrder = [1, 2, 3, 4, 5];
+  
   return (
     <div
       className="w-full flex flex-col items-center text-center gap-4 font-baij lg:w-fit 

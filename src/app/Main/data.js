@@ -55,29 +55,7 @@ export const features = [
     },
   ];
 
-  export const links = [
-    {
-      title: "FAQs",
-      url: "/faq"
-    },
-    {
-      title: "Contact Us",
-      url: "/contact"
-    },
-    {
-      title: "Privacy Policy",
-      url: "/privacy-policy"
-    },
-    {
-      title: "Press Kit",
-      url: "/press-kit"
-    },
-    {
-      title: "Install Guide",
-      url: "/install-guide"
-    }
-  ];
-  
+ 
  
   
   
