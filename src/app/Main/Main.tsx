@@ -9,7 +9,8 @@ import MacIos from "./MacIos";
 
 const Main = () => {
   return (
-    <div className="bg-hero bg-no-repeat font-baij px-4 py-24  w-full h-full flex flex-col items-center gap-16 ">
+    <div className="bg-hero lg:bg-contain md:bg-hero-desk bg-no-repeat font-baij
+     px-4 py-24 md:px-16 w-full h-full flex flex-col items-center md:justify-center gap-16 ">
       <Logo />
       <History />
       <Track />

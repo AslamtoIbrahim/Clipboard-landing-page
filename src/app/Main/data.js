@@ -48,7 +48,11 @@ export const features = [
     {
       title: "HP",
       logo: "/source/images/logo-hp.png",
-    }
+    },
+    {
+      title: "VECTOR GRAPHIC",
+      logo: "/source/images/logo-vector-graphics.png",
+    },
   ];
 
   export const links = [
